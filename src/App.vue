@@ -4,7 +4,7 @@
  * @Author: 白金鑫
  * @Date: 2020-09-08 17:51:04
  * @LastEditors: 白金鑫
- * @LastEditTime: 2020-09-08 20:14:26
+ * @LastEditTime: 2020-09-08 20:25:27
 -->
 <template>
   <div id="app">
@@ -41,6 +41,12 @@ export default {
 <style>
 h1{
     font-size: 36px;
+    position: fixed;
+    left: 47%;
+    top: 40%;
+    z-index: 6;
+    
+
 }
 *{
     

@@ -4,13 +4,13 @@
  * @Author: 白金鑫
  * @Date: 2020-09-08 19:42:50
  * @LastEditors: 白金鑫
- * @LastEditTime: 2020-09-08 20:13:19
+ * @LastEditTime: 2020-09-08 20:27:06
 -->
 <template>
   <div @click='$emit("isdefale")' class="alert">
       <slot></slot>
       <ul>
-          <li v-for="(item,index) in arr" :key="index">
+          <li v-for="(item,index) in arr" :key="index" >
 
             {{item}}
           </li>
@@ -37,8 +37,8 @@ export default {
 }
 
 ul{
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
